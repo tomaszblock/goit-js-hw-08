@@ -12,6 +12,6 @@ const test = function (data) {
   console.log(data.seconds);
   localStorage.setItem('videoplayer-current-time', data.seconds);
 };
-player.on('timeupdate', throttle(test, 10000));
+player.on('timeupdate', throttle(test, 1000));
 
 player.setCurrentTime(localStorage.getItem('videoplayer-current-time'));
