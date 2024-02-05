@@ -27,4 +27,4 @@ for (let item of galleryItems) {
 
 gallery.append(...result);
 
-let = lightbox = new SimpleLightbox('.gallery a');
+let lightbox = new SimpleLightbox('.gallery a');
